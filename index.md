@@ -14,7 +14,7 @@
 Given a list of objects with similar photometric attributes, i.e. no distinct characteristics that we can use to make cuts, train a neural network to identify quasars from other objects. 
 
 ## Data
-The data is publicly available here 
++ The data is publicly available here 
 
 http://skyserver.sdss.org/dr7/en/tools/search/sql.asp
 
@@ -30,6 +30,7 @@ WHERE (s.specClass = dbo.fSpecClass('QSO') OR s.specClass = dbo.fSpecClass('HIZ_
 ```
 
 + We choose 30000 other point-like objects (PLO) using the following commands
+
 
 ```
 SELECT TOP 30000 s.z,s.zErr, s.specClass, p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z, p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z FROM BESTDR7 as s
@@ -50,6 +51,9 @@ psfMag_u - psfMag_g above is the u-g band. The u-g, g-r, r-i, i-z colours are ad
 + In the neural network we initially use 10 input parameters (following https://arxiv.org/abs/0910.3770 ). They are the 4 colours defined above, the g magnitude and the 5 magnitude errors i.e. psfMagErr_z etc.
 
 + To show that the objects cannot be separated with data cuts we show plots of the input parameters of each object below using the training sample. Red objects are the QSO and blue are the PLO. 
+### Training set input parameters
+
+![Image](src)
 
 ## Method
 
