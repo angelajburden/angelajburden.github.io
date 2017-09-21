@@ -11,10 +11,29 @@
 
 
 ## Aim 
-Given a list of objects with similar photometric attributes (i.e. no distinct characteristics), train a neural network to identify quasars from other objects. 
+Given a list of objects with similar photometric attributes, i.e. no distinct characteristics that we can use to make cuts, train a neural network to identify quasars from other objects. 
 
 ## Data
+The data is publicly available here 
 
+http://skyserver.sdss.org/dr7/en/tools/search/sql.asp
+
+We choose the objects using the SQL commands
+
+```
+SELECT TOP 30000 s.z,s.zErr, s.specClass, p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z, p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z FROM BESTDR7 as s
+
+JOIN BESTDR7 AS p ON s.bestObjID = p.objID
+
+WHERE (s.specClass = dbo.fSpecClass('QSO') OR s.specClass = dbo.fSpecClass('HIZ_QSO')) AND s.zConf>0.35 AND s.z>0.5 AND s.z<5 AND p.psfMag_u>0 AND p.psfMag_u<26 AND p.psfMag_g>19 AND p.psfMag_g<25 AND p.psfMag_r>0 AND p.psfMag_r<24 AND p.psfMag_i>0 AND p.psfMag_i<24 AND p.psfMag_z>0 AND p.psfMag_z<24 AND p.psfMagErr_u>0 AND p.psfMagErr_g>0 AND p.psfMagErr_r>0 AND p.psfMagErr_i>0 AND p.psfMagErr_z>0
+
+
+SELECT TOP 30000 s.z,s.zErr, s.specClass, p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z, p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z FROM BESTDR7 as s
+
+JOIN BESTDR7 AS p ON s.bestObjID = p.objID
+
+WHERE (s.specClass = dbo.fSpecClass('STAR')) AND p.psfMag_u>0 AND p.psfMag_u<26 AND p.psfMag_g>19 AND p.psfMag_g<25 AND p.psfMag_r>0 AND p.psfMag_r<24 AND p.psfMag_i>0 AND p.psfMag_i<24 AND p.psfMag_z>0 AND p.psfMag_z<24 AND p.psfMagErr_u>0 AND p.psfMagErr_g>0 AND p.psfMagErr_r>0 AND p.psfMagErr_i>0 AND p.psfMagErr_z>0 
+```
 
 ## Method
 
