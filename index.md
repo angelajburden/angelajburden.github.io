@@ -141,3 +141,9 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
 ![alt text](/images/contour_ratios.pdf "contour_colour"){:height="60%" width="60%"}
 
 + It looks like the incorrectly identified objects (RHS) are just too degenerate with the other class.
+
++ Finally we show the efficiency of the algorithm when we change the positive classification limit from >0.5 to a range of values. The efficiency is defined as the fraction of objects in a particular class with y_NN > y_NN_min.
+
+![alt text](/images/efficiency_plot.png "efficiency"){:height="60%" width="60%"}
+
+
