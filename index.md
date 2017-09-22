@@ -67,14 +67,42 @@ The neural network is set up as shown in the figure below.
 The network is trained on the training set. The procedure is as follows
 - Decide on the input parameters for the data (**x**), the number of hidden layers and the number of nodes in each hidden layer.
 - Initialise the weights of the network. These will be randomly generated numbers, our starting point. As the network runs these weights become optimised as the neural network learns which information is important to correctly guess the catagory of the object. The weights connect each node in the previous layer to each node in the present layer, thus the weights are a matrix with size (layer_i x (layer_i+1 +1)) NB there is an extra node added in layer_i+1 which is the zero node.
-- Using the initial weights, compute how well the network predicts the true outcome. Different functions can be used here but we use the cost function where
+- Using the initial weights, compute how well the network predicts the true outcome. 
+For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the following (the superscript denotes the layer number) 
+
+$$a^{(1)} = \mathbf{x}$$
+
+$$z^{(2)} = \Theta^{(1)}a^{(1)}$$
+
+$$a^{(2)} = (1 + \exp{-z^{(2)})^{(-1)}$$
+
+add 
+
+\$$ a_0^{(2)} $$
+
+$$z^{(3)} = \Theta^{(2)}a^{(2)}$$
+
+$$a^{(3)} = (1 + \exp{-z^{(3)})^{(-1)}$$
+
+add 
+
+\$$ a_0^{(3)}$$ 
+
+$$z^{(4)} = \Theta^{(3)}a^{(3)}$$
+
+yNN = 
+
+\$$ a^{(3)} = (1 + \exp{-z^{(3)})^{(-1)}$$
+
+Different functions can be used here but we use the cost function where
 
 $$ J(theta) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log yNN(Theta)^i + (1-y^i)\log(1-yNN(Theta)^i) + \frac{\lambda}{m}\sum\Theta^2$$
 
 where
 
-$$yNN^i = \bf{x}^T \bf{Theta}$$
+$$yNN^i = \frac{1}{1 + \exp{-\mathbf{x}^T \mathbf{Theta}}}$$
 
+and m is the number of data points in the sample.
 ## Code
 
 ## Results
