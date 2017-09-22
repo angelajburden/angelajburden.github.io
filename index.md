@@ -1,6 +1,3 @@
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 ## Context
 + To measure properties of our universe galaxy surveys set up large telescopes to observe the light of millions of objects. By measuring the distribution of different classes of objects we can infer different things about the universe such as what it is made up of. 
