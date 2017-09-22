@@ -71,11 +71,11 @@ The network is trained on the training set. The procedure is as follows
 For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the following (the superscript denotes the layer number) 
 
 $$
-\begin{flalign*} 
+\begin{align*} 
 & a^{(1)} = \mathbf{x}\\
 & z^{(2)} = \Theta^{(1)}a^{(1)}\\
 & a^{(2)} = \[1 + \exp{-z^{(2)}}\]^{(-1)}\\
-\end{flalign*} 
+\end{align*} 
 $$
 
 add 
@@ -92,21 +92,21 @@ add
 
 $$
 
-\begin{flalign*} 
+\begin{align*} 
 & a_0^{(3)}\\
 & z^{(4)} = \Theta^{(3)}a^{(3)}\\
 & yNN = a^{(3)} = \[1 + \exp{-z^{(3)}}\]^{(-1)}\\
-\end{flalign*}
+\end{align*}
 $$
 
 Different functions can be used here but we use the cost function to descibe how close our model is to predicting the correct classification. It is defined as
 
-$$ J(\mathbf{\Theta}) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log yNN(\mathbf{\Theta})^i + (1-y^i)\log(1-yNN(\mathbf{\Theta})^i) + \frac{\lambda}{m}\mathrm{tr}(\mathbf{\Theta}^T\mathbf{\Theta}) $$
+$$ J(\mathbf{\Theta}) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log yNN(\mathbf{\Theta})^i + (1-y^i)\log(1-yNN(\mathbf{\Theta})^i) + \frac{\lambda}{m}\sum_{i=1}^{L-1}\mathrm{tr}(\mathbf{\Theta}^T\mathbf{\Theta}) $$
 
-where m is the number of data points in the sample and l are the number of layers.
-and 
+where m is the number of data points in the sample, L are the total number of layers and 
 
 $$ \mathrm{tr}(A^T A) = \sum_{i=1}^n \sum_{j=1}^n a_{i,j}^2 $$
+
 ## Code
 
 ## Results
