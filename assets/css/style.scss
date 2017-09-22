@@ -18,23 +18,23 @@ li::before {
     margin-left: -1em;
 }
 
-ol {
-    list-style: none; 
-    counter-reset: li;
-}
+// ol {
+//     list-style: none; 
+//     counter-reset: li;
+// }
 
 
-li::before {
-    content: counter(li); 
-    color: black;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-}
+// li::before {
+//     content: counter(li); 
+//     color: black;
+//     display: inline-block; 
+//     width: 1em;
+//     margin-left: -1em;
+// }
 
-li {
-    counter-increment: li;
-}
+// li {
+//     counter-increment: li;
+// }
 
 
 // li {
