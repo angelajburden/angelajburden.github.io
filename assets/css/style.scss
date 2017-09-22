@@ -10,23 +10,50 @@ p {
     color: #2d7254;    
 }
 
+li::before {
+    content: "•"; 
+    color: black;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol {
+    list-style: none; 
+    counter-reset: li;
+}
+
+
+li::before {
+    content: counter(li); 
+    color: black;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
 li {
-  list-style: none;
+    counter-increment: li;
 }
-li:before {
-  /* For a round bullet */
-  /*content: '\2022';
-  /* For a square bullet */
-  /*content:'\25A0';*/
-  display: block;
-  position: relative;
-  max-width: 0;
-  max-height: 0;
-  left: -10px;
-  top: 0;
-  color: black;
-  font-size: 20px;
-}
+
+
+// li {
+//   list-style: none;
+// }
+// li:before {
+//   /* For a round bullet */
+//   /*content: '\2022';
+//   /* For a square bullet */
+//   /*content:'\25A0';*/
+//   display: block;
+//   position: relative;
+//   max-width: 0;
+//   max-height: 0;
+//   left: -10px;
+//   top: 0;
+//   color: black;
+//   font-size: 20px;
+// }
 
 .outer {
   width: 100%;
