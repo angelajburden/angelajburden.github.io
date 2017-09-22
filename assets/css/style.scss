@@ -10,8 +10,22 @@ p {
     color: #2d7254;    
 }
 
-.listStyle {
-    color: black;
+li {
+  list-style: none;
+}
+li:before {
+  /* For a round bullet */
+  content: '\2022';
+  /* For a square bullet */
+  /*content:'\25A0';*/
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -10px;
+  top: 0;
+  color: black;
+  font-size: 20px;
 }
 
 .outer {
