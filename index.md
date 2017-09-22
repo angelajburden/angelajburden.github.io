@@ -75,37 +75,35 @@ $$
 & a^{(1)} = \mathbf{x}\\
 & z^{(2)} = \Theta^{(1)}a^{(1)}\\
 & a^{(2)} = \frac{1}{(1 + \exp{-z^{(2)}})}\\
-\end{align*} 
-$$
-
-add 
-
-$$
-\begin{align*} 
-& a_0^{(2)} \\
+& \textrm{add} a_0^{(2)} \\
 &z^{(3)} = \Theta^{(2)}a^{(2)}\\
 &a^{(3)} = \frac{1}{(1 + \exp{-z^{(3)}})}\\
-\end{align*} 
-$$
-
-add 
-
-$$
-
-\begin{align*} 
-& a_0^{(3)}\\
+& \textrm{add} a_0^{(3)}\\
 & z^{(4)} = \Theta^{(3)}a^{(3)}\\
-& yNN = a^{(4)} = {(1 + \exp{-z^{(4)}})}\\
+& y_{NN} = a^{(4)} = \frac{1}{(1 + \exp{-z^{(4)}})}\\
 \end{align*}
 $$
 
-Different functions can be used here but we use the cost function to descibe how close our model is to predicting the correct classification. It is defined as
++ Different functions can be used here but we use the cost function to descibe how close our model is to predicting the correct classification. It is defined as
 
-$$ J(\mathbf{\Theta}) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log yNN(\mathbf{\Theta})^i + (1-y^i)\log(1-yNN(\mathbf{\Theta})^i) + \frac{\lambda}{m}\sum_{i=1}^{L-1}\mathrm{tr}(\mathbf{\Theta}^T\mathbf{\Theta}) $$
+$$ J(\mathbf{\Theta}) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log y_{NN}(\mathbf{\Theta})^i + (1-y^i)\log(1-y_{NN}(\mathbf{\Theta})^i) + \frac{\lambda}{m}\sum_{i=1}^{L-1}\mathrm{tr}(\mathbf{\Theta}^T\mathbf{\Theta}) $$
 
-where m is the number of data points in the sample, L are the total number of layers and 
++ where m is the number of data points in the sample, L are the total number of layers and 
 
-$$ \mathrm{tr}(A^T A) = \sum_{i=1}^n \sum_{j=1}^n a_{i,j}^2 $$
+$$ \mathrm{tr}(A^T A) = \sum_{i=1}^n \sum_{j=1}^m a_{i,j}^2 $$
+
+- To reduce the cost function and train the network we then work backwards (back propagation) to compute the gradient of the cost function which we can feed in our our optimiser inorder for it to search for the Theta parameters that return minimum cost and therefore best model the training data.
+
+- We compute a $$\delta$$ for layers L..2, in our case 4,3,2. 
+
+$$
+\begin{align*} 
+& \delta^{(L)} = y_{NN} - y\\
+& \delta^{(L-i)} = \mathbf{\Theta}^{(L-i)}^T \delta^{L-i+1}  .* a^{(L-i)}(1-a^{(L-i)})\\
+\end{align*}
+$$
+
++ 
 
 ## Code
 
