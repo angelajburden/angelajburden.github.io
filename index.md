@@ -128,7 +128,7 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
 
 + From the results below we chose our lambda value to be 0.5, the number of nodes in the hidden layer to be 50 and although 1000 iterations did not give much improvement over 500, we chose to do 1000 iterations as the code only took about 5 mins to run.
 
-![alt text](/images/params_NN.png "parameters"){:height="60%" width="60%"}
+->![alt text](/images/params_NN.png "parameters"){:height="60%" width="60%"}<-
 
 + For 10 data input parameters, lambda = 0.5, 2 hidden layers with 50 nodes each, a positive classification value defined as y_NN > 0.5 and 1000 iterations we recovered a test set accuracy of 92%.
 
