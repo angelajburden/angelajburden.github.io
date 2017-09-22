@@ -121,15 +121,12 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
 ## Code
 
 [neural network main code](https://www.google.com)
+
 [neural functions code](https://www.google.com)
 
 ## Results
 
-- Bulleted
-- List
+![alt text](/images/params_NN.jpg "colours")
 
-1. Numbered
-2. List
-3. **special**
 
 
