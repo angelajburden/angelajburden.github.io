@@ -96,7 +96,7 @@ We compute a delta for layers L down to 2.
 
 $$ \delta^{(L)} = y_{NN} - y$$
 
-$$ \delta^{(L-i)} = \mathbf{\Theta}^{(L-i)}^T \delta^{L-i+1}  x a^{(L-i)}(1-a^{(L-i)}).$$
+$$ \delta^{(L-i)} = $$
 
 
 The gradient at each layer (l) and each unit (j) in that layer is 
