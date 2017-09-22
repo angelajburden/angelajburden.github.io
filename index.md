@@ -136,6 +136,8 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
 
 ![alt text](/images/hist_results_FT_PN2.jpg "classificartions"){:height="60%" width="60%"}
 
++ To look more closely at our results, the following plots show the true positive (top left), true negative (bottom left), false negative (top right), and false positive (bottom right) as contour plots as a function of their colours.
 
+![alt text](/images/contour_ratios.pdf "contour_colour"){:height="60%" width="60%"}
 
-
++ It looks like the incorrectly identified objects (RHS) are just too degenerate with the other class.
