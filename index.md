@@ -91,14 +91,15 @@ $$
 add 
 
 $$
-\begin{align*} 
+
+\begin{flalign*} 
 & a_0^{(3)}\\
 & z^{(4)} = \Theta^{(3)}a^{(3)}\\
 & yNN = a^{(3)} = (1 + \exp{-z^{(3)}}^{(-1)}\\
-\end{align*}
+\end{flalign*}
 $$
 
-Different functions can be used here but we use the cost function where
+Different functions can be used here but we use the cost function to descibe how close our model is to predicting the correct classification. It is defined as
 
 $$ J(theta) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log yNN(Theta)^i + (1-y^i)\log(1-yNN(Theta)^i) + \frac{\lambda}{m}\sum\Theta^2$$
 
