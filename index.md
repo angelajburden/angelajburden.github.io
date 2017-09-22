@@ -75,8 +75,8 @@ The network is trained on the training set. The procedure is as follows
 3. Using the initial weights, compute how well the network predicts the true outcome. 
 For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the following (the superscript denotes the layer number): 
 
-   $$
-    \begin{align*} \color{black}
+   $$ \color{black}
+    \begin{align*} 
     & a^{(1)} = \mathbf{x},\\
     & z^{(2)} = \Theta^{(1)}a^{(1)}, \quad a^{(2)} = \frac{1}{(1 + \exp{-z^{(2)}})}, \quad \textrm{add}\quad a_0^{(2)} \\
     & z^{(3)} = \Theta^{(2)}a^{(2)}, \quad a^{(3)} = \frac{1}{(1 + \exp{-z^{(3)}})}, \quad \textrm{add}\quad a_0^{(3)} \\
