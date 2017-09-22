@@ -75,10 +75,10 @@ $$
 & a^{(1)} = \mathbf{x}\\
 & z^{(2)} = \Theta^{(1)}a^{(1)}\\
 & a^{(2)} = \frac{1}{(1 + \exp{-z^{(2)}})}\\
-& \textrm{add } a_0^{(2)} \\
+& \textrm{add}\quad a_0^{(2)} \\
 &z^{(3)} = \Theta^{(2)}a^{(2)}\\
 &a^{(3)} = \frac{1}{(1 + \exp{-z^{(3)}})}\\
-& \textrm{add } a_0^{(3)}\\
+& \textrm{add}\quad a_0^{(3)}\\
 & z^{(4)} = \Theta^{(3)}a^{(3)}\\
 & y_{NN} = a^{(4)} = \frac{1}{(1 + \exp{-z^{(4)}})}\\
 \end{align*}
@@ -92,9 +92,9 @@ $$ J(\mathbf{\Theta}) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log y_{NN}(\mathbf{\The
 
 $$ \mathrm{tr}(A^T A) = \sum_{i=1}^n \sum_{j=1}^m a_{i,j}^2 $$
 
-- To reduce the cost function and train the network we then work backwards (back propagation) to compute the gradient of the cost function which we can feed in our our optimiser inorder for it to search for the Theta parameters that return minimum cost and therefore best model the training data.
++ To reduce the cost function and train the network we then work backwards (back propagation) to compute the gradient of the cost function which we can feed in our our optimiser inorder for it to search for the Theta parameters that return minimum cost and therefore best model the training data.
 
-- We compute a $$\delta$$ for layers L..2, in our case 4,3,2. 
++ We compute a $$\delta$$ for layers L..2, in our case 4,3,2. 
 
 $$
 \begin{align*} 
