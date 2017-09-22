@@ -12,10 +12,13 @@ p {
 
 li::before {
     content: "•"; 
+    position: relative;
+    max-width: 0;
+    max-height: 0;
+    left: -10px;
+    top: 0;
     color: black;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
+    font-size: 20px;
 }
 
 // ol {
