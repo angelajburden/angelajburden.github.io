@@ -130,3 +130,5 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
 
 
 
+
+
