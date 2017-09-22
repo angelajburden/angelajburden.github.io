@@ -126,8 +126,15 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
 
 ## Results
 
-![alt text](/images/params_NN.png "parameters")
++ From the results below we chose our lambda value to be 0.5, the number of nodes in the hidden layer to be 50 and although 1000 iterations did not give much improvement over 500, we chose to do 1000 iterations as the code only took about 5 mins to run.
 
+![alt text](/images/params_NN.png "parameters"){:height="60%" width="60%"}
+
++ For 10 data input parameters, lambda = 0.5, 2 hidden layers with 50 nodes each, a positive classification value defined as y_NN > 0.5 and 1000 iterations we recovered a test set accuracy of 92%.
+
++ The classifications are shown below. The blue are the true positive results i.e. correctly guessed QSO, the green are the false positive, that is QSO that our network missed. The red are the correctly identified PLO (True negative) and the black are the PLO that were wrongly classified as QSO.
+
+![alt text](/images/hist_results_FT_PN2.jpg "classificartions"){:height="60%" width="60%"}
 
 
 
