@@ -126,7 +126,7 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
 
 ## Results
 
-![alt text](/images/params_NN.jpg "colours")
+![alt text](/images/params_NN.jpg "parameters")
 
 
 
