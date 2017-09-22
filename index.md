@@ -69,7 +69,7 @@ The network is trained on the training set. The procedure is as follows
 - Initialise the weights of the network. These will be randomly generated numbers, our starting point. As the network runs these weights become optimised as the neural network learns which information is important to correctly guess the catagory of the object. The weights connect each node in the previous layer to each node in the present layer, thus the weights are a matrix with size (layer_i x (layer_i+1 +1)) NB there is an extra node added in layer_i+1 which is the zero node.
 - Using the initial weights, compute how well the network predicts the true outcome. Different functions can be used here but we use the cost function where
 
-$x$
+$$x$$
 $ J(theta) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log yNN(Theta)^i + (1-y^i)\log(1-yNN(Theta)^i) + \frac{\lambda}{m}\sum\Theta^2$
 where
 
