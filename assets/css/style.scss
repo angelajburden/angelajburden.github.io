@@ -2,14 +2,61 @@
 ---
 
 @import "{{ site.theme }}";
-
 p {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    color: #3D9970;
+    color: #2d7254;    
 }
+
+// li::before {
+//     content: "•"; 
+//     position: relative;
+//     max-width: 0;
+//     max-height: 0;
+//     left: -10px;
+//     top: 0;
+//     color: black;
+//     font-size: 20px;
+// }
+
+// ol {
+//     list-style: none; 
+//     counter-reset: li;
+// }
+
+
+// li::before {
+//     content: counter(li); 
+//     color: black;
+//     display: inline-block; 
+//     width: 1em;
+//     margin-left: -1em;
+// }
+
+// li {
+//     counter-increment: li;
+// }
+
+
+// li {
+//   list-style: none;
+// }
+// li:before {
+//   /* For a round bullet */
+//   /*content: '\2022';
+//   /* For a square bullet */
+//   /*content:'\25A0';*/
+//   display: block;
+//   position: relative;
+//   max-width: 0;
+//   max-height: 0;
+//   left: -10px;
+//   top: 0;
+//   color: black;
+//   font-size: 20px;
+// }
 
 .outer {
   width: 100%;
@@ -17,7 +64,7 @@ p {
 
 .inner {
   position: relative;
-  max-width: 840px;
+  max-width: 940px;
   padding: 10px 10px;
   margin: 0 auto;
 }
@@ -33,4 +80,5 @@ p {
 #main_content {
     margin-left: 120px;
     margin-right: 120px;
+    color: #2d7254;
 }
