@@ -68,7 +68,7 @@ The network is trained on the training set. The procedure is as follows
 1. Decide on the input parameters for the data (**x**), the number of hidden layers and the number of nodes in each hidden layer.
 2. Initialise the weights of the network. These will be randomly generated numbers, our starting point. As the network runs these weights become optimised as the neural network learns which information is important to correctly guess the catagory of the object. The weights connect each node in the previous layer to each node in the present layer, thus the weights are a matrix with size (layer_i x (layer_i+1 +1)) NB there is an extra node added in layer_i+1 which is the zero node.
 3. Using the initial weights, compute how well the network predicts the true outcome. 
-For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the following (the superscript denotes the layer number) 
+For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the following (the superscript denotes the layer number): 
 
 $$
 \begin{align*} 
@@ -84,31 +84,29 @@ $$
 \end{align*}
 $$
 
-+ Different functions can be used here but we use the cost function to descibe how close our model is to predicting the correct classification. It is defined as
+    - Different functions can be used here but we use the cost function to descibe how close our model is to predicting the correct classification. It is defined as
 
 $$ J(\mathbf{\Theta}) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log y_{NN}(\mathbf{\Theta})^i + (1-y^i)\log(1-y_{NN}(\mathbf{\Theta})^i) + \frac{\lambda}{m}\sum_{i=1}^{L-1}\mathrm{tr}(\mathbf{\Theta}^T\mathbf{\Theta}) $$
 
-+ where m is the number of data points in the sample, L are the total number of layers and 
+    - where m is the number of data points in the sample, L are the total number of layers and 
 
 $$ \mathrm{tr}(A^T A) = \sum_{i=1}^n \sum_{j=1}^m a_{i,j}^2 $$
 
 4. To reduce the cost function and train the network we then work backwards (back propagation) to compute the gradient of the cost function which we can feed in our our optimiser inorder for it to search for the Theta parameters that return minimum cost and therefore best model the training data.
 
-+ We compute a delta for layers L..2, in our case 4,3,2. 
+    - We compute a delta for layers L down to 2. 
 
 $$
-
 \begin{align*} 
 & \delta^{(L)} = y_{NN} - y \\
-& \delta^{(L-i)} = \mathbf{\Theta}^{(L-i)}^T \delta^{L-i+1}  .* a^{(L-i)}(1-a^{(L-i)})\\
+& \delta^{(L-i)} = \mathbf{\Theta}^{(L-i)}^T \delta^{L-i+1}  x a^{(L-i)}(1-a^{(L-i)}). \\
 \end{align*}
-
 $$
 
-+ The gradient at each layer (l) and each unit (j) in that layer is 
+    - The gradient at each layer (l) and each unit (j) in that layer is 
 
 $$ 
-\frac{\partial J}{\partial \Theta_j} = \sum_{i=1}^{m} \frac{1}{m} a_j^{(l)}\delta^{(l+1)} + \sum_{i=1, j\neq 0}^{m}\lambda \Theta_j^{(l)}
+\frac{\partial J}{\partial \Theta_j} = \sum_{i=1}^{m} \frac{1}{m} a_j^{(l)}\delta^{(l+1)} + \sum_{i=1, j\neq 0}^{m}\lambda \Theta_j^{(l)}.
 $$
 
 5. With the cost function and gradient of cost function algorithm we can now take advantage of built-in optimisation routines in python. I have used the scipy.optimize.fmin_cg function.
