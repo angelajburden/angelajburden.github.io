@@ -55,6 +55,8 @@ psfMag_u - psfMag_g above is the u-g band. The u-g, g-r, r-i, i-z colours are ad
 
 ![Image](/images/col_col.jpg)
 
+![Image](/images/hist_cats.jpg)
+
 ## Method
 
 ## Code
