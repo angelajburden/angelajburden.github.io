@@ -1,4 +1,6 @@
 
+
+
 ## Context
 + To measure properties of our universe galaxy surveys set up large telescopes to observe the light of millions of objects. By measuring the distribution of different classes of objects we can infer different things about the universe such as what it is made up of. 
 
@@ -73,7 +75,7 @@ The network is trained on the training set. The procedure is as follows
 3. Using the initial weights, compute how well the network predicts the true outcome. 
 For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the following (the superscript denotes the layer number): 
 
-    $$
+   $$
     \begin{align*} 
     & a^{(1)} = \mathbf{x},\\
     & z^{(2)} = \Theta^{(1)}a^{(1)}, \quad a^{(2)} = \frac{1}{(1 + \exp{-z^{(2)}})}, \quad \textrm{add}\quad a_0^{(2)} \\
@@ -81,32 +83,39 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
     & z^{(4)} = \Theta^{(3)}a^{(3)}\\
     & y_{NN} = a^{(4)} = \frac{1}{(1 + \exp{-z^{(4)}})}\\
     \end{align*}
-    $$
+   $$
 
-Different functions can be used here but we use the cost function to descibe how close our model is to predicting the correct classification. It is defined as
+    +Different functions can be used here but we use the cost function to descibe how close our model is to predicting the correct classification. It is defined as
 
- $$ J(\mathbf{\Theta}) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log y_{NN}(\mathbf{\Theta})^i + (1-y^i)\log(1-y_{NN}   (\mathbf{\Theta})^i) + \frac{\lambda}{m}\sum_{i=1}^{L-1}\mathrm{tr}(\mathbf{\Theta}^T\mathbf{\Theta})$$
+   $$ J(\mathbf{\Theta}) = -\frac{1}{m} \sum_{i=1}^{m} y^i \log y_{NN}(\mathbf{\Theta})^i + (1-y^i)\log(1-y_{NN}   (\mathbf{\Theta})^i) + \frac{\lambda}{m}\sum_{i=1}^{L-1}\mathrm{tr}(\mathbf{\Theta}^T\mathbf{\Theta})$$
 
-where m is the number of data points in the sample, L are the total number of layers and
+    +where m is the number of data points in the sample, L are the total number of layers and
 
- $$ \mathrm{tr}(A^T A) = \sum_{i=1}^n \sum_{j=1}^m a_{i,j}^2 $$
+   $$ \mathrm{tr}(A^T A) = \sum_{i=1}^n \sum_{j=1}^m a_{i,j}^2 $$
 
 4. To reduce the cost function and train the network we then work backwards (back propagation) to compute the gradient of the cost function which we can feed in our our optimiser inorder for it to search for the Theta parameters that return minimum cost and therefore best model the training data.
 
 We compute a delta for layers L down to 2.
 
- $$ \delta^{(L)} = y_{NN} - y$$
+   $$ \delta^{(L)} = y_{NN} - y$$
 
- $$ \delta^{(L-i)} = \mathbf{\Theta}^{(L-i) \mathbf{T}} \delta^{(L-i+1)}  a^{(L-i)}(1-a^{(L-i)})$$
+   $$ \delta^{(L-i)} = \mathbf{\Theta}^{(L-i) \mathbf{T}} \delta^{(L-i+1)}  a^{(L-i)}(1-a^{(L-i)})$$
 
 The gradient at each layer (l) and each unit (j) in that layer is 
 
- $$ 
+   $$ 
     \frac{\partial J}{\partial \Theta_j} = \sum_{i=1}^{m} \frac{1}{m} a_j^{(l)}\delta^{(l+1)} + \sum_{i=1, j\neq 0}^{m}\lambda \Theta_j^{(l)}.
-$$
+   $$
 
 5. With the cost function and gradient of cost function algorithm we can now take advantage of built-in optimisation routines in python. I have used the scipy.optimize.fmin_cg function.
 
+6. Now the neural network is set up we can test that the gradient are being computed correctly by running a small sample through our gradient computation routine and comparing the outcome with that from a simple finite difference routine.
+
+7. If that looks good the next step is computing the best regularisation parameter Lambda, and the number of nodes required in the hidden layers using the cross-validation data set.
+
+8. We chose the values of Lambda and the number of hidden layer nodes as those that give the lowest cost-function/highets accuracy on our cross-validation data set.
+
+9. Now we can train the network using these values and see how well it performs on the test data set as a function of the number of iterations reuired by the optimisation function.
 
 
 ## Code
