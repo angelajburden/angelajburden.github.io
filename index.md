@@ -56,9 +56,7 @@ psfMag_u - psfMag_g above is the u-g band. The u-g, g-r, r-i, i-z colours are ad
 
 + The 10 input parameters of each object are hown in the two plots below. The QSOs are in red and the PLOs in blue. Clearly they cannot be identified by applying simple cuts to any of these attributes.
 
-![Image](/images/col_col.jpg)
-
-![Image](/images/hist_cats.jpg)
+![Image](/images/col_col.jpg) ![Image](/images/hist_cats.jpg)
 
 ## Method
 
