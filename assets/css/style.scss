@@ -10,16 +10,16 @@ p {
     color: #2d7254;    
 }
 
-li::before {
-    content: "•"; 
-    position: relative;
-    max-width: 0;
-    max-height: 0;
-    left: -10px;
-    top: 0;
-    color: black;
-    font-size: 20px;
-}
+// li::before {
+//     content: "•"; 
+//     position: relative;
+//     max-width: 0;
+//     max-height: 0;
+//     left: -10px;
+//     top: 0;
+//     color: black;
+//     font-size: 20px;
+// }
 
 // ol {
 //     list-style: none; 
