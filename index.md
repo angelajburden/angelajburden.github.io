@@ -53,7 +53,7 @@ psfMag_u - psfMag_g above is the u-g band. The u-g, g-r, r-i, i-z colours are ad
 + To show that the objects cannot be separated with data cuts we show plots of the input parameters of each object below using the training sample. Red objects are the QSO and blue are the PLO. 
 ### Training set input parameters
 
-![Image](src)
+![Image](/images/col_col.jpg)
 
 ## Method
 
