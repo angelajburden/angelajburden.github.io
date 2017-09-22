@@ -75,10 +75,10 @@ $$
 & a^{(1)} = \mathbf{x}\\
 & z^{(2)} = \Theta^{(1)}a^{(1)}\\
 & a^{(2)} = \frac{1}{(1 + \exp{-z^{(2)}})}\\
-& \textrm{add} a_0^{(2)} \\
+& \textrm{add } a_0^{(2)} \\
 &z^{(3)} = \Theta^{(2)}a^{(2)}\\
 &a^{(3)} = \frac{1}{(1 + \exp{-z^{(3)}})}\\
-& \textrm{add} a_0^{(3)}\\
+& \textrm{add } a_0^{(3)}\\
 & z^{(4)} = \Theta^{(3)}a^{(3)}\\
 & y_{NN} = a^{(4)} = \frac{1}{(1 + \exp{-z^{(4)}})}\\
 \end{align*}
@@ -103,7 +103,11 @@ $$
 \end{align*}
 $$
 
-+ 
++ The gradient at each layer (l) and each unit (j) in that layer is 
+$$ 
+\frac{\partial J}{\partial \Theta_j} = \sum_{i=1}^{m} \frac{1}{m} a_j^{(l)}\delta^{(l+1)} + \sum_{i=1, j\neq 0}^{m}\lambda \Theta_j^{(l)}
+$$
+
 
 ## Code
 
