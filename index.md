@@ -97,16 +97,22 @@ $$ \mathrm{tr}(A^T A) = \sum_{i=1}^n \sum_{j=1}^m a_{i,j}^2 $$
 + We compute a $$\delta$$ for layers L..2, in our case 4,3,2. 
 
 $$
+
 \begin{align*} 
 & \delta^{(L)} = y_{NN} - y\\
 & \delta^{(L-i)} = \mathbf{\Theta}^{(L-i)}^T \delta^{L-i+1}  .* a^{(L-i)}(1-a^{(L-i)})\\
 \end{align*}
+
 $$
 
 + The gradient at each layer (l) and each unit (j) in that layer is 
+
 $$ 
 \frac{\partial J}{\partial \Theta_j} = \sum_{i=1}^{m} \frac{1}{m} a_j^{(l)}\delta^{(l+1)} + \sum_{i=1, j\neq 0}^{m}\lambda \Theta_j^{(l)}
 $$
+
++ With the cost function and gradient of cost function algorithm we can now take advantage of built-in optimisation routines in python. I have used the scipy.optimize.fmin_cg function.
+
 
 
 ## Code
