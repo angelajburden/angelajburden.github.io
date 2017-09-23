@@ -1,4 +1,4 @@
- [no link]["link_style.css" rel="stylesheet"]
+ [no link](assets/css/link_style.css rel="stylesheet")
  
 ### DATA
 
