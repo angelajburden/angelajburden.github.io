@@ -1,6 +1,6 @@
 name: "Angela Burden"
 title: [Quasar Neural Network]
-description: [A neural network to identify quasars from other objects with similar photometric properties]
+description: [A neural network to identify quasars from objects with similar photometric properties]
 theme: jekyll-theme-slate
 markdown: kramdown
 
