@@ -1,8 +1,27 @@
+name: "Angela Burden"
 title: [Quasar Neural Network]
 description: [A neural network to identify quasars from other objects with similar photometric properties]
 theme: jekyll-theme-slate
 markdown: kramdown
 
-# Reading Files
-include:
-  - _pages
+nav:
+  main:
+    data: "/data"
+    results: "/results"
+    info: "/discussion"
+
+# URLs
+contact_urls:
+  linkedin:
+    url: "https://www.linkedin.com/in/angelajburden_physics"
+    label: "LinkedIn"
+    icon: "linkedin-square"
+  github:
+    url: "https://github.com/angelajburden/"
+    label: "GitHub"
+    icon: "github-square"
+  email:
+    url: "mailto:angelajburden@gmail.com"
+    label: "Email"
+    value: "angelajburden@gmail.com"
+    icon: "envelope-square"
