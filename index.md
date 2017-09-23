@@ -1,5 +1,5 @@
 
-[a relative link](other_file.md)
+[a relative link](https://github.com/angelajburden/angelajburden.github.io/blob/master/data/index.md)
 
 ## Context
 + To measure properties of our universe galaxy surveys set up large telescopes to observe the light of millions of objects. By measuring the distribution of different classes of objects we can infer different things about the universe such as what it is made up of. 
