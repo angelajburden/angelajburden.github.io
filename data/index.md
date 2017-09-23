@@ -1,5 +1,5 @@
 
-## Data
+
 + The data is publicly available here 
 
 http://skyserver.sdss.org/dr7/en/tools/search/sql.asp
