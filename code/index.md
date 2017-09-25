@@ -3,7 +3,7 @@
 ## Code 
 <p style="font-size:large;color:black;margin-left: -20px;">The code for the project is here <a href="https://github.com/angelajburden/QSO_neural_network" style="color:DarkCyan;font-weight:bold;">neural network code</a></p>
 
-<p style="font-size:large;color:black;margin-left: -20px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng <a href="https://www.coursera.org/learn/machine-learning" style="font-size:large;color:DarkCyan;font-weight:bold;margin-left: -20px;">https://www.coursera.org/learn/machine-learning</a></p>
+<p style="font-size:large;color:black;margin-left: -20px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng <a href="https://www.coursera.org/learn/machine-learning" style="font-size:large;color:DarkCyan;font-weight:bold;">https://www.coursera.org/learn/machine-learning</a></p>
 
 <p style="font-size:large;color:black;margin-left: -20px;">The main body of the neural network code is called</p>
  
