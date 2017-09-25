@@ -3,6 +3,7 @@ title: [Quasar Neural Network]
 description: [Identifying quasars from objects with similar photometric properties]
 theme: jekyll-theme-slate
 markdown: kramdown
+baseurl: /angelajburden.github.io
 
 navbar-links:
   About Me: "aboutme"
