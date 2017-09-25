@@ -1,6 +1,6 @@
-[home](https://github.com/angelajburden/angelajburden.github.io/blob/master/index.md)
+[home](https://github.com/angelajburden/angelajburden.github.io/blob/master/index.md)(#home)
 
-## Code
+## <a name="home"></a>Code
 
 [neural network code](https://github.com/angelajburden/QSO_neural_network)
 
