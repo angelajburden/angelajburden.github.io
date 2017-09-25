@@ -1,7 +1,7 @@
 
 This page describes the publicly available data set used in this project.
-{: id="data_banner"}
-### DATA
+
+### DATA ### {#data_banner}
 
 + The data is publicly available here 
 
