@@ -1,6 +1,6 @@
 [home](#home)
 
-## <a name="home"></a>Code
+## Code 
 
 [neural network code](https://github.com/angelajburden/QSO_neural_network)
 
