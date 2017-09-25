@@ -1,7 +1,7 @@
 
 <span style="font-size:larger;color:black;margin-left: -20px;">This page describes the publicly available data set used in this project.</span>
 
-<span style="font-size:larger;color:black;margin-left: -20px;">The data is publicly available here <a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp" style="color:black;font-weight:bold;" >SDSS DR7 DATA</a> </span>
+<span style="font-size:larger;color:black;margin-left: -20px;">The data can be queried here <a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp" style="color:black;font-weight:bold;" >SDSS DR7 DATA</a> </span>
 
 {: id="data_banner"}
 ### DATA 
