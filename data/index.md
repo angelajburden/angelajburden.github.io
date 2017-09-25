@@ -1,11 +1,11 @@
 
 <p style="font-size:larger;color:black;margin-left: -20px;">This page describes the publicly available data set used in this project.
 
-The data is publicly available here 
+The data is publicly available here </p>
 
 http://skyserver.sdss.org/dr7/en/tools/search/sql.asp
 
-</p>
+
 {: id="data_banner"}
 ### DATA 
 
