@@ -1,3 +1,6 @@
+
+[home] (https://github.com/angelajburden/angelajburden.github.io/blob/master/index.md)
+
 ## Method
 
 The neural network is set up as shown in the figure below.
