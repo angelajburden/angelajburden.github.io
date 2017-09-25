@@ -4,6 +4,13 @@ description: [A neural network to identify quasars from objects with similar pho
 theme: jekyll-theme-slate
 markdown: kramdown
 
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+ 
 #nav:
   #main:
     #data: "/data"
