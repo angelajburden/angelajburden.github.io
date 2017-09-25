@@ -6,7 +6,7 @@
 
 <p style="font-size:large;color:black;margin-left: -20px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</p>
 
-<a href="https://www.coursera.org/learn/machine-learning">https://www.coursera.org/learn/machine-learning</a>
+<a href="https://www.coursera.org/learn/machine-learning" style="font-size:large;color:black;margin-left: -20px;">https://www.coursera.org/learn/machine-learning</a>
 
 <p style="font-size:large;color:black;margin-left: -20px;">The main code that runs the neural network is called</p>
  
