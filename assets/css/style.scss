@@ -88,6 +88,7 @@ a:link, a:visited {
     color: navy;
     font-size: 200%;
     border: 2px solid lightblue;
+    border-radius: 25px;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -97,6 +98,7 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: navy;
     color: white;
+    border-radius: 25px;
 }
 // a:hover, a:active {
 //     background-color: red;
@@ -114,11 +116,13 @@ a:hover, a:active {
 /* mouse over link */
 a:hover {
     color: CornflowerBlue;
+    border-radius: 25px;
 }
 
 /* selected link */
 a:active {
     color: blue;
+    border-radius: 25px;
 }
 
 #rcorners2 {
