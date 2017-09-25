@@ -7,7 +7,7 @@
 
 NB. The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng 
 
-https://www.coursera.org/learn/machine-learning/
+https://www.coursera.org/learn/machine-learning
 
 The main code that runs the neural network is called
  
