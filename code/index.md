@@ -1,13 +1,13 @@
 {: id="code_banner"}
 
 ## Code 
-<p style="font-size:large;color:black;margin-left: -20px;">The code for the project is here <a href="https://github.com/angelajburden/QSO_neural_network" style="color:black;font-weight:bold;" >neural network code</a></p>
+<span style="font-size:large;color:black;margin-left: -20px;">The code for the project is here <a href="https://github.com/angelajburden/QSO_neural_network" style="color:black;font-weight:bold;">neural network code</a></span>
 
-<p style="font-size:large;color:black;margin-left: -20px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</p>
+<span style="font-size:large;color:black;margin-left: -20px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</span>
 
-<a href="https://www.coursera.org/learn/machine-learning" style="font-size:large;color:black;margin-left: -20px;">https://www.coursera.org/learn/machine-learning</a>
+<a href="https://www.coursera.org/learn/machine-learning" style="font-size:large;color:black;;font-weight:bold;margin-left: -20px;">https://www.coursera.org/learn/machine-learning</a>
 
-<p style="font-size:large;color:black;margin-left: -20px;">The main code that runs the neural network is called</p>
+<span style="font-size:large;color:black;margin-left: -20px;">The main body of the neural network code is called</span>
  
 ## neural_network_galaxy.py
 
