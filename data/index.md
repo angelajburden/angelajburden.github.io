@@ -1,9 +1,9 @@
 
 <p style="font-size:larger;color:black;margin-left: -20px;">This page describes the publicly available data set used in this project.
 
-The data is publicly available here </p>
+The data is publicly available here 
 
-<div id="sample2"><a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp">SDSS DR7 DATA</a></div>
+<div id="sample2"><a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp">SDSS DR7 DATA</a></div> </p>
 
 {: id="data_banner"}
 ### DATA 
