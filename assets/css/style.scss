@@ -35,7 +35,7 @@ p {
     color: #2d7254;
 }
 
-a:link, a:visited {
+#hlink a:link, a:visited {
     background-color: white;
     color: MediumSeaGreen;
 //     font-family: "Arial Bold";
@@ -48,18 +48,18 @@ a:link, a:visited {
     display: inline-block;
 }
 
-a:hover, a:active {
+#hlink a:hover, a:active {
     background-color: MediumSeaGreen;
     color: white;
 }
 
 /* mouse over link */
-a:hover {
+#hlink a:hover {
     color: lightblue;
 }
 
 /* selected link */
-a:active {
+#hlink a:active {
     color: blue;
 }
 
