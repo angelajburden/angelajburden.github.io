@@ -1,4 +1,4 @@
-<span style="font-size:larger;color:black;margin-left: 20px;margin-right: 20px;">
+<span style="font-size:larger;color:black;margin-left: -10px;margin-right: -10px;">
 This webpage describes the process and code that creates a neural network that can distinguish between quasars and point-like objects (92% accuracy) using only their photometric properties.</span>
 
 ## Context
