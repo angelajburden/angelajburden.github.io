@@ -1,21 +1,19 @@
 {: id="code_banner"}
 
 ## Code 
-<p style="font-size:larger;color:black;margin-left: -20px;">The code for the project is here</p>
+<p style="font-size:large;color:black;margin-left: -20px;">The code for the project is here
 <div id="sample2"><a href="https://github.com/angelajburden/QSO_neural_network" style="color:black" >neural network code</a></div> 
-
-<p style="font-size:larger;color:black;margin-left: -20px;">NB. The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</p>
+The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng
 
 https://www.coursera.org/learn/machine-learning 
 
-
-The main code that runs the neural network is called
+The main code that runs the neural network is called</p>
  
 ## neural_network_galaxy.py
 
-In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations required to train the network.   
+<p style="margin-left: -20px;"> In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations required to train the network.   
 
-The parameters we need to specify are:
+The parameters we need to specify are:</p>
 
 + **input_layer_size**: Number of attributes of our data set that we wish to use to make a prediction of the classification of the data. In this case there are 10 (see data section).
 
