@@ -5,7 +5,7 @@
 
 <p style="font-size:larger;color:black;margin-left: -20px;"> The neural network is set up as shown in the figure below.</p>
 
-The network is trained on the training set. The procedure is as follows
+<p style="font-size:larger;color:black;margin-left: -20px;"> The network is trained on the training set. The procedure is as follows</p>
 
 1. Decide on the input parameters for the data (**x**), the number of hidden layers and the number of nodes in each hidden layer.
 
