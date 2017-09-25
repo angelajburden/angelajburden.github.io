@@ -1,5 +1,4 @@
-[home](https://github.com/angelajburden/angelajburden.github.io/blob/master/index.md)
-
+{: id="results_banner"}
 ## Results
 
 + From the results below we chose our lambda value to be 0.5, the number of nodes in the hidden layer to be 50 and although 1000 iterations did not give much improvement over 500, we chose to do 1000 iterations as the code only took about 5 mins to run.
