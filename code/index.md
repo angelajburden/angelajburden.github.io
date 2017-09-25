@@ -1,3 +1,5 @@
+[home] (https://github.com/angelajburden/angelajburden.github.io/blob/master/index.md)
+
 ## Code
 
 The main code that runs the neural network can be found here
