@@ -1,12 +1,15 @@
 {: id="code_banner"}
 
 ## Code 
-
-[neural network code](https://github.com/angelajburden/QSO_neural_network)
+<p style="font-size:larger;color:black;margin-left: -20px;">The code for the project is here
+ 
+<div id="sample2"><a href="https://github.com/angelajburden/QSO_neural_network">neural network code</a></div> 
 
 NB. The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng 
 
-https://www.coursera.org/learn/machine-learning
+https://www.coursera.org/learn/machine-learning 
+
+</p>
 
 The main code that runs the neural network is called
  
