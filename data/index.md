@@ -1,5 +1,5 @@
 
-This page describes the publicly available data set used in this project.
+<p style="font-size:larger;color:black;margin-left: -20px;">This page describes the publicly available data set used in this project.</p>
 {: id="data_banner"}
 ### DATA 
 
