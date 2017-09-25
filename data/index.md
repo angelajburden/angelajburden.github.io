@@ -1,11 +1,13 @@
 
-<p style="font-size:larger;color:black;margin-left: -20px;">This page describes the publicly available data set used in this project.</p>
-{: id="data_banner"}
-### DATA 
+<p style="font-size:larger;color:black;margin-left: -20px;">This page describes the publicly available data set used in this project.
 
-+ The data is publicly available here 
+The data is publicly available here 
 
 http://skyserver.sdss.org/dr7/en/tools/search/sql.asp
+
+</p>
+{: id="data_banner"}
+### DATA 
 
 ![alt-text-1](/images/col_col.jpg "colours"){:height="51.8%" width="51.8%"}![alt-text-2](/images/hist_cats.jpg "colour errors"){:height="48%" width="48%"}
 
