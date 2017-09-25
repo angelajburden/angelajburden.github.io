@@ -3,10 +3,7 @@
 
 The data is publicly available here </p>
 
-<div id="sample2"><a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp">SDSS_DR7</a></div>
-
-[SDSS-DR7 DATA](http://skyserver.sdss.org/dr7/en/tools/search/sql.asp)
-
+<div id="sample2"><a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp">SDSS DR7 DATA</a></div>
 
 {: id="data_banner"}
 ### DATA 
