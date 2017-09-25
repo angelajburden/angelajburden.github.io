@@ -1,11 +1,11 @@
 {: id="code_banner"}
 
 ## Code 
-<span style="font-size:large;color:black;margin-left: -50px;">The code for the project is here <a href="https://github.com/angelajburden/QSO_neural_network" style="color:black;font-weight:bold;">neural network code</a></span>
+<span style="font-size:large;color:black;margin-left: -50px;">The code for the project is here <a href="https://github.com/angelajburden/QSO_neural_network" style="color:navy;font-weight:bold;">neural network code</a></span>
 
-<span style="font-size:large;color:black;margin-left: -50px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</span>
+<p style="font-size:large;color:black;margin-left: -50px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</p>
 
-<a href="https://www.coursera.org/learn/machine-learning" style="font-size:large;color:black;;font-weight:bold;margin-left: -20px;">https://www.coursera.org/learn/machine-learning</a>
+<a href="https://www.coursera.org/learn/machine-learning" style="font-size:large;color:navy;font-weight:bold;margin-left: -20px;">https://www.coursera.org/learn/machine-learning</a>
 
 
 <span style="font-size:large;color:black;margin-left: -50px;">The main body of the neural network code is called</span>
