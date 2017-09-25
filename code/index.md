@@ -1,15 +1,16 @@
 {: id="code_banner"}
 
 ## Code 
-<span style="font-size:large;color:black;margin-left: -20px;">The code for the project is here <a href="https://github.com/angelajburden/QSO_neural_network" style="color:black;font-weight:bold;">neural network code</a></span>
+<span style="font-size:large;color:black;margin-left: -50px;">The code for the project is here <a href="https://github.com/angelajburden/QSO_neural_network" style="color:black;font-weight:bold;">neural network code</a></span>
 
-<span style="font-size:large;color:black;margin-left: -20px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</span>
+<span style="font-size:large;color:black;margin-left: -50px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</span>
 
 <a href="https://www.coursera.org/learn/machine-learning" style="font-size:large;color:black;;font-weight:bold;margin-left: -20px;">https://www.coursera.org/learn/machine-learning</a>
 
-<span style="font-size:large;color:black;margin-left: -20px;">The main body of the neural network code is called</span>
+
+<span style="font-size:large;color:black;margin-left: -50px;">The main body of the neural network code is called</span>
  
-## neural_network_galaxy.py
+### neural_network_galaxy.py
 
 <p style="margin-left: -20px;"> In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations required to train the network.   
 
@@ -27,7 +28,7 @@ The parameters we need to specify are:</p>
 
 The functions called in the main code are in
 
-## NN_functions_param.py
+### NN_functions_param.py
 
 + **randInitializeWeights**
 This produces intial random weights by generating a matrix of random values between zero and some value epsilon
