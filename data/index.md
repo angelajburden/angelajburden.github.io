@@ -1,5 +1,5 @@
 
-[home](https://github.com/angelajburden/angelajburden.github.io/blob/master/index.md)
+This page describes the publicly available data set used in this project.
 
 ### DATA
 
