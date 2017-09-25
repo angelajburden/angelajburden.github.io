@@ -21,24 +21,6 @@ p {
 //   margin: 0 auto;
 }
 
-.header-link {
-  position: absolute;
-  left: -0.5em;
-  opacity: 0;
-
-  \-webkit-transition: opacity 0.2s ease-in-out 0.1s;
-  \-moz-transition: opacity 0.2s ease-in-out 0.1s;
-  \-ms-transition: opacity 0.2s ease-in-out 0.1s;
-}
-
-h2:hover .header-link,
-h3:hover .header-link,
-h4:hover .header-link,
-h5:hover .header-link,
-h6:hover .header-link {
-  opacity: 1;
-}
-
 #header_wrap {
     color: lightblue;
 }
@@ -96,7 +78,8 @@ a.code_banner  {
     background-color: white;
     color: navy;
     font-size: 120%;
-    border: 1px solid lightblue;
+    border: 1px solid black;
+    border-radius: 0px;
     padding: 2px 2px;
     text-align: center;
     text-decoration: none;
