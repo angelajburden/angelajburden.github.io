@@ -1,8 +1,9 @@
 
+
 {: id="method_banner"}
 ## Method
 
-The neural network is set up as shown in the figure below.
+<p style="font-size:larger;color:black;margin-left: -20px;"> The neural network is set up as shown in the figure below.</p>
 
 The network is trained on the training set. The procedure is as follows
 
