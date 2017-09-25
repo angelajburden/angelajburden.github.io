@@ -1,5 +1,4 @@
-{#home}
-[home](#home)
+{: id="code_banner"}
 
 ## Code 
 
