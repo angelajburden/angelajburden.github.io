@@ -91,7 +91,17 @@ a.code_banner  {
     display: inline-block;
 }
 
-#sample2 a:link { text-decoration:none; }
+#sample2 a:link { 
+    text-decoration:none;
+    background-color: white;
+    color: navy;
+    font-size: 120%;
+    border: 1px solid lightblue;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 #sample2 a:visited { text-decoration:line-through; }
 #sample2 a:hover { font-weight:bold;text-decoration:underline overline; }
 #sample2 a:active { font-weight:bold;text-transform: uppercase; }
