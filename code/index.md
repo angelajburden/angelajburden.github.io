@@ -9,17 +9,19 @@ The main code that runs the neural network can be found here
  
 ## neural_network_galaxy.py
 
-In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations reuired to train the network.   
+In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations required to train the network.   
 
 The parameters we need to specify are:
 
-**input_layer_size**: Number of attributes of our data set that we wish to use to make a prediction of the classification of the data. In this case there are 10 (see link..data)
+**input_layer_size**: Number of attributes of our data set that we wish to use to make a prediction of the classification of the data. In this case there are 10 (see data section).
 
-**hidden_layer_size**: Number of nodes in each hidden layer
+**hidden_layer_size**: Number of nodes in each hidden layer.
 
-**num_labels**: Number of output classifications (in out case 1 which will be 1 for QSO and 0 for PLO)
+**num_labels**: Number of output classifications (in out case 1 which will be 1 for QSO and 0 for PLO).
 
 **lamparam**: Lambda value, the regularisation parameter.
+
+**it_no**: Number of iterations for optimisation routine.
 
 The functions called in the main code are in
 
