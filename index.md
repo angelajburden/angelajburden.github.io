@@ -1,4 +1,4 @@
-<span style="font-size:larger;color:black;margin-left: -20px;margin-right: -20px;">This webpage describes the process and code that creates a neural network that can distinguish between quasars and point-like objects (92% accuracy) using only their photometric properties.</span>
+<span style="font-size:larger;color:black;margin-left: -20px;margin-right: -20px;">This webpage describes the process of creating a neural network to distinguish between quasars and point-like objects (92% accuracy) using photometric properties.</span>
 
 ## Context
 + To measure properties of our universe galaxy surveys set up large telescopes to observe the light of millions of objects. By measuring the distribution of different classes of objects we can infer different things about the universe such as what it is made up of. 
