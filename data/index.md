@@ -7,6 +7,8 @@
 
 http://skyserver.sdss.org/dr7/en/tools/search/sql.asp
 
+![alt-text-1](/images/col_col.jpg "colours"){:height="51.8%" width="51.8%"}![alt-text-2](/images/hist_cats.jpg "colour errors"){:height="48%" width="48%"}
+
 + We choose 30000 known QSO (quasars) and their properties using the SQL commands
 
 ```
@@ -43,7 +45,7 @@ psfMag_u - psfMag_g above is the u-g band. The u-g, g-r, r-i, i-z colours are ad
 
 ### Training set input parameters
 
-+ The 10 input parameters of each object are hown in the two plots below. The QSOs are in red and the PLOs in blue. Clearly they cannot be identified by applying simple cuts to any of these attributes.
++ The 10 input parameters of each object are hown in the two plots at the top of the page. The QSOs are in red and the PLOs in blue. Clearly they cannot be identified by applying simple cuts to any of these attributes.
 
-![alt-text-1](/images/col_col.jpg "colours"){:height="51.8%" width="51.8%"}![alt-text-2](/images/hist_cats.jpg "colour errors"){:height="48%" width="48%"}
+
 
