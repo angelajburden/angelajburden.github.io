@@ -1,8 +1,8 @@
 
-[DATA](data/index.md){#id-goes-here}
-[METHOD](method/index.md){#id-goes-here}
-[CODE](code/index.md){#id-goes-here}
-[RESULTS](results/index.md){#id-goes-here}
+[DATA](data/index.md)
+[METHOD](method/index.md)
+[CODE](code/index.md)
+[RESULTS](results/index.md)
 
 ## Context
 + To measure properties of our universe galaxy surveys set up large telescopes to observe the light of millions of objects. By measuring the distribution of different classes of objects we can infer different things about the universe such as what it is made up of. 
