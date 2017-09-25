@@ -1,8 +1,7 @@
 {: id="code_banner"}
 
 ## Code 
-<p style="font-size:large;color:black;margin-left: -20px;">The code for the project is here</p>
-<div id="sample2"><a href="https://github.com/angelajburden/QSO_neural_network" style="color:black" >neural network code</a></div> 
+<p style="font-size:large;color:black;margin-left: -20px;">The code for the project is here <div id="sample2"><a href="https://github.com/angelajburden/QSO_neural_network" style="color:black" >neural network code</a></div></p> 
 
 <p style="font-size:large;color:black;margin-left: -20px;">The code is written in python but is based on the Matlab code provided in the machine learning course by Andrew Ng</p>
 
