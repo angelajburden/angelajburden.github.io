@@ -1,4 +1,4 @@
-[home](https://github.com/angelajburden/angelajburden.github.io/blob/master/index.md)(#home)
+[home](#home)
 
 ## <a name="home"></a>Code
 
