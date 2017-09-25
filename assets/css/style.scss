@@ -90,3 +90,9 @@ a.code_banner  {
     text-decoration: none;
     display: inline-block;
 }
+
+#sample2 a:link { text-decoration:none; }
+#sample2 a:visited { text-decoration:line-through; }
+#sample2 a:hover { font-weight:bold;text-decoration:underline overline; }
+#sample2 a:active { font-weight:bold;text-transform: uppercase; }
+
