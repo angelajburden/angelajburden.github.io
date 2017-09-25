@@ -53,7 +53,6 @@ a:hover, a:active {
     color: white;
 }
 
-
 /* mouse over link */
 a:hover {
     color: lightblue;
@@ -63,18 +62,8 @@ a:hover {
 a:active {
     color: blue;
 }
-a.code_banner  {
-    background-color: white;
-    color: black;
-    border: 2px solid green;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
 
 #sample2 a:link { 
-    text-decoration:none;
     background-color: white;
     color: navy;
     font-size: 120%;
@@ -85,7 +74,5 @@ a.code_banner  {
     text-decoration: none;
     display: inline-block;
 }
-#sample2 a:visited { text-decoration:line-through; }
-#sample2 a:hover { font-weight:bold;text-decoration:underline overline; }
-#sample2 a:active { font-weight:bold;text-transform: uppercase; }
+
 
