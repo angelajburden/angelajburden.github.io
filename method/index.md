@@ -5,7 +5,7 @@
 
 <p style="font-size:larger;color:black;margin-left: -20px;"> The neural network is set up as shown in the figure below.</p>
 
-![alt-text-1](/images/NNetwork_fig.pdf "NNfig"){:height="51.8%" width="51.8%"}
+![alt text](/images/NNetwork_fig.pdf "NNfig"){:height="25%" width="25%"}
 
 <p style="font-size:larger;color:black;margin-left: -20px;"> The network is trained on the training set. The procedure is as follows</p>
 
