@@ -2,7 +2,7 @@
 
 {: id="method_banner"}
 ## Method
-![alt text](/images/col_col.jpg)
+![alt text](/images/)
 <p style="font-size:larger;color:black;margin-left: -20px;"> The neural network is set up as shown in the figure below.</p>
 
 
