@@ -15,11 +15,11 @@ The classifications are shown below. The blue are the true positive results i.e.
 
 To inspect the locations in parameter space where the neural network fails the plot below shows: 
 
-+    the true distributions (grey underlying contours), 
-+    the true positive (top left), 
-+    true negative (bottom left), 
-+    false negative (top right), and 
-+    false positive (bottom right) 
+  * the true distributions (grey underlying contours), 
+  * the true positive (top left), 
+  * true negative (bottom left), 
+  * false negative (top right), and 
+  * false positive (bottom right) 
     
 results as colourful contours. The plots to the LHS show where the NN has guessed correctly and on the right show the incorrect guesses. From the plots on the right, it is clear to see why the NN made the wrong choice for a subset of the test data which doesn't lie in the same parameter space as the majority of that class (i.e. the contours are misaligned).
 
