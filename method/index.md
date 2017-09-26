@@ -2,9 +2,10 @@
 
 {: id="method_banner"}
 ## Method
-![alt text](/images/)
+
 <p style="font-size:larger;color:black;margin-left: -20px;"> The neural network is set up as shown in the figure below.</p>
 
+![alt text](/images/NNetwork_fig.jpg){:height="80%" width="80%"}
 
 
 <p style="font-size:larger;color:black;margin-left: -20px;"> The network is trained on the training set. The procedure is as follows</p>

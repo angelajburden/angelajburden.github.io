@@ -8,10 +8,10 @@
 <p style="font-size:large;color:black;margin-left: -20px;">The main body of the neural network code is called</p>
  
 ### neural_network_galaxy.py
+***
+In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations required to train the network.   
 
-<p style="margin-left: -20px;"> In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations required to train the network.   
-
-The parameters we need to specify are:</p>
+The parameters we need to specify are:
 
 + **input_layer_size**: Number of attributes of our data set that we wish to use to make a prediction of the classification of the data. In this case there are 10 (see data section).
 
@@ -26,7 +26,7 @@ The parameters we need to specify are:</p>
 The functions called in the main code are in
 
 ### NN_functions_param.py
-
+***
 + **randInitializeWeights**
 This produces intial random weights by generating a matrix of random values between zero and some value epsilon
 
