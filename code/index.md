@@ -9,9 +9,9 @@
  
 ### neural_network_galaxy.py
 ***
-<p style="margin-left: -20px;"> In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations required to train the network.   
+In this part of the code you can change the lambda (regularisation) parameter, the number of nodes in the hidden layers, the and number of iterations required to train the network.   
 
-The parameters we need to specify are:</p>
+The parameters we need to specify are:
 
 + **input_layer_size**: Number of attributes of our data set that we wish to use to make a prediction of the classification of the data. In this case there are 10 (see data section).
 
