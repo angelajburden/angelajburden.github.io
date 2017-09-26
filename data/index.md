@@ -1,10 +1,9 @@
+{: id="data_banner"}
+### DATA 
 
 <p style="font-size:larger;color:black;margin-left: -20px;">This page describes the publicly available data set used in this project.</p>
 
 <p style="font-size:larger;color:black;margin-left: -20px;">The data can be queried here <a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp" style="color:DarkCyan;font-weight:bold;">SDSS DR7 DATA</a> </p>
-
-{: id="data_banner"}
-### DATA 
 
 ![alt-text-1](/images/col_col.jpg "colours"){:height="51.8%" width="51.8%"}![alt-text-2](/images/hist_cats.jpg "colour errors"){:height="48%" width="48%"}
 
