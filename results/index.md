@@ -13,10 +13,11 @@
 {:.center}
 ![alt text](/images/hist_results_FT_PN2.jpg "classificartions"){:height="60%" width="60%"}
 
-+ To look more closely at our results, the following plots show the true positive (top left), true negative (bottom left), false negative (top right), and false positive (bottom right) as contour plots as a function of their colours.
++ To inspect the locations in parameter space where the neural network fails the plot below shows: 
+the true distributions (grey underlying contours), the true positive (top left), true negative (bottom left), false negative (top right), and false positive (bottom right) results as colourful contours. The plots to the LHS show where the NN has guessed correctly and on the right show the incorrect guesses. From the plots on the right, it is clear to see why the NN made the wrong choice for a subset of the test data which doesn't lie in the same parameter space as the majority of that class.
 
 {:.center}
-![alt text](/images/contour_ratios "contour_colour"){:height="60%" width="60%"}
+![alt text](/images/TP_contours.jpg "contour_colour"){:height="60%" width="60%"}
 
 + It looks like the incorrectly identified objects (RHS) are just too degenerate with the other class.
 
