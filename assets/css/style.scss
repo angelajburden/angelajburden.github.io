@@ -26,9 +26,8 @@ ul {
     margin-left: 1em;
 }
 
-img[src$="centerme"] {
-  display:block;
-  margin: 0 auto;
+.center {
+  text-align: center;
 }
 
 #header_wrap {
@@ -101,6 +100,4 @@ hr {
      margin-right: -50px;
 }
 
-.image_ind {
-    align: center;
-}
+
