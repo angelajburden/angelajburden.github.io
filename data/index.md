@@ -36,14 +36,14 @@ WHERE (s.specClass = dbo.fSpecClass('STAR')) AND p.psfMag_u>0 AND p.psfMag_u<26 
 
 The samples have the same data cuts in their photometric properties. 
 
-+ The samples are labelled 1 for QSO and 0 for PLO and are combined, shuffled and split into a training-set, cross-validation set and a test-set with 0.5, 0.25 and 0.25 of the data respectively.
+  + The samples are labelled 1 for QSO and 0 for PLO and are combined, shuffled and split into a training-set, cross-validation set and a test-set with 0.5, 0.25 and 0.25 of the data respectively.
 
-+ In astronomy we define the colours of an object to be the difference in the values between two bands for example 
+  + In astronomy we define the colours of an object to be the difference in the values between two bands for example 
 psfMag_u - psfMag_g above is the u-g band. The u-g, g-r, r-i, i-z colours are added to the data.
 
-+ In the neural network we initially use 10 input parameters (following https://arxiv.org/abs/0910.3770 ). They are the 4 colours defined above, the g magnitude and the 5 magnitude errors i.e. psfMagErr_z etc.
+  + In the neural network we initially use 10 input parameters (following https://arxiv.org/abs/0910.3770 ). They are the 4 colours defined above, the g magnitude and the 5 magnitude errors i.e. psfMagErr_z etc.
 
-+ To show that the objects cannot be separated with data cuts we show plots of the input parameters of each object below using the training sample. Red objects are the QSO and blue are the PLO. 
+  + To show that the objects cannot be separated with data cuts we show plots of the input parameters of each object below using the training sample. Red objects are the QSO and blue are the PLO. 
 
 ### Training set input parameters
 ***
