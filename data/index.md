@@ -7,8 +7,10 @@
 
 <p style="font-size:larger;color:black;margin-left: -20px;">The data can be queried here <a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp" style="color:DarkCyan;font-weight:bold;">SDSS DR7 DATA</a> </p>
 
+{:.center}
 ![alt-text-1](/images/col_col.jpg "colours"){: .image_ind}
 
+{:.center}
 ![alt-text-2](/images/hist_cats.jpg "colour errors"){: .image_ind}
 
 + We choose 30000 known QSO (quasars) and their properties using the SQL commands
