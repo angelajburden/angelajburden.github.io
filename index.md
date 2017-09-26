@@ -17,6 +17,6 @@ As spectroscopic observations are more expensive we want to be sure that we poin
 ### Aim 
 ***
 
-<p style="color:black;margin-left: -20px;">Given a list of objects with similar photometric attributes, i.e. no distinct characteristics that we can use to make cuts, train a neural network to identify quasars from other objects. </p>
+<p style="color:black;margin-left: -10px;">Given a list of objects with similar photometric attributes, i.e. no distinct characteristics that we can use to make cuts, train a neural network to identify quasars from other objects. </p>
 
 
