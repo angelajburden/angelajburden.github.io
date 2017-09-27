@@ -7,7 +7,7 @@
 
 <p style="color:black;margin-left: -4px;">Information about an object is derived from the properties of emitted light we observe. Properties are measured via two different methods, photometric and spectroscopic analysis. </p>
 
-+ Photometic observations measure the amount of light passing through coloured filters. This mesures the intensity of light but only as a function of a few wavelengths. This method permits multiple observations at one time making it relatively inexpensive to gather broad information on a large number of objects. 
++ Photometic observations measure the amount of light passing through coloured filters. This measures the intensity of light but only as a function of a few wavelengths. This method permits multiple observations at one time making it relatively inexpensive to gather broad information on a large number of objects. 
 
 + In spectroscopic observations the light travels through a spectrometer and the continuous intensity of light as a function of wavelength is recovered. For each object more detailed information is measured but it is a more expensive procedure as fewer objects can be observed at one time.
 
