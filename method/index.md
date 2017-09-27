@@ -20,7 +20,7 @@ For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the followin
 
    $$ \color{black}
     \begin{align*} 
-    & a^{(1)} = \mathbf{x},\\
+    & a^{(1)} = \mathbf{x}, \quad \textrm{add}\quad a_0^{(1)}\\
     & z^{(2)} = \Theta^{(1)}a^{(1)}, \quad a^{(2)} = \frac{1}{(1 + \exp{-z^{(2)}})}, \quad \textrm{add}\quad a_0^{(2)} \\
     & z^{(3)} = \Theta^{(2)}a^{(2)}, \quad a^{(3)} = \frac{1}{(1 + \exp{-z^{(3)}})}, \quad \textrm{add}\quad a_0^{(3)} \\
     & z^{(4)} = \Theta^{(3)}a^{(3)}\\
