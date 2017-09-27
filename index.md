@@ -3,20 +3,21 @@
 ### Context
 ***
 
-<p style="color:black;margin-left: -4px;">To measure properties of our universe galaxy surveys set up large telescopes to observe the light of millions of objects. By measuring the distribution of different classes of objects we can infer different things about the universe such as what it is made up of.</p>
+<p style="color:black;margin-left: -4px;">To measure properties of our universe, galaxy surveys use large telescopes to observe the light of millions of objects. By measuring the distribution of different classes of objects we can infer properties of the universe such as it's expansion rate.</p>
 
-<p style="color:black;margin-left: -4px;">We can measure the light using two different methods, photometric and spectroscopic observations. </p>
+<p style="color:black;margin-left: -4px;">Information about an object is derived from the properties of emitted light we observe. Properties are measured via two different methods, photometric and spectroscopic analysis. </p>
 
-+ Photometic observations measure the amount of light passing through coloured filters. Therefore you will get the intensity of light but only as a function of a few wavelengths. However you can observe many objects at once.
++ Photometic observations measure the amount of light passing through coloured filters. This mesures the intensity of light but only as a function of a few wavelengths. This method permits multiple observations at one time making it relatively inexpensive to gather broad information on a large number of objects. 
 
-+ For spectroscopic observations the light travels through a spectrometer and you recover the continuous intensity of light as a function of wavelength. For each object you get a lot more information but this method is more expensive and not as many objects can be observed at one time.
++ In spectroscopic observations the light travels through a spectrometer and the continuous intensity of light as a function of wavelength is recovered. For each object more detailed information is measured but it is a more expensive procedure as fewer objects can be observed at one time.
 
-<p style="color:black;margin-left: -4px;">As spectroscopic observations are more expensive we want to be sure that we point our optical fibers on the objects that we wish to obtain spectra for. Therefore we first conduct photometric observations of mny objects in the region of the sky we are interested in, and from these measurement try and distinguish between objects so that we know the positions of objects we wish to target with our spectroscopic survey.</p>
+<p style="color:black;margin-left: -4px;">Spectroscopic observations are more expensive but more informative, therefore photometric observations are carried out prior to spectroscopic observations inorder to get an idea of the location of interesting objects that warrant targeting with our spectroscopic survey. </p>
 
 
 ### Aim 
 ***
 
-<p style="color:black;margin-left: -4px;">Given a list of objects with similar photometric attributes, i.e. no distinct characteristics that we can use to make cuts, train a neural network to identify quasars from other objects. </p>
+<p style="color:black;margin-left: -4px;">
+Given a list of objects from a photometric survey with similar photometric attributes that we cannot use to classify the objects by making simple cuts in the data, train a neural network to identify quasars from other objects. </p>
 
 
