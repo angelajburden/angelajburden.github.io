@@ -13,7 +13,7 @@
 
 1. Decide on the input parameters for the data (**x**), the number of hidden layers and the number of nodes in each hidden layer.
 
-2. Initialise the weights of the network. These will be randomly generated numbers, our starting point. As the network runs these weights become optimised as the neural network learns which information is important to correctly guess the catagory of the object. The weights connect each node in the previous layer to each node in the present layer, thus the weights are a matrix with size (layer_i x (layer_i+1 +1)) NB there is an extra node added in layer_i+1 which is the zero node.
+2. Initialise the weights of the network. These will be randomly generated numbers, our starting point. As the network runs these weights become optimised as the neural network learns which information is important to correctly guess the catagory of the object. The weights connect each node in the previous layer to each node in the present layer, thus the weights are a matrix with size ((layer_i +1) x layer_j) where j = i+1. NB there is an extra node added in layer_i which is the zero node.
 
 3. Using the initial weights, compute how well the network predicts the true outcome. 
 For layers 1 to 4 (i.e input, 2xhiddenlayers and output) we compute the following (the superscript denotes the layer number): 
