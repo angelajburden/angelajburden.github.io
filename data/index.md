@@ -6,10 +6,10 @@
 <p style="font-size:large;color:black;margin-left: -20px;">This page describes the publicly available data set which can be queried here <a href="http://skyserver.sdss.org/dr7/en/tools/search/sql.asp" style="color:DarkCyan;font-weight:bold;">SDSS DR7 DATA</a> </p>
 
 {:.center}
-![alt-text-1](/images/col_col.jpg "colours"){: .image_ind}
+![alt-text-1](/images/col_col.jpg "colours")
 
 {:.center}
-![alt-text-2](/images/hist_cats.jpg "colour errors"){: .image_ind}
+![alt-text-2](/images/hist_cats.jpg "colour errors")
 
 + We choose 30000 known QSO (quasars) and their properties using the SQL commands
 
