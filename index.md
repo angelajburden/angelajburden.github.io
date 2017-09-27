@@ -1,4 +1,4 @@
-<p style="color:black;margin-left: -20px;">This webpage describes the process of creating a neural network to distinguish between quasars and point-like objects using only photometric properties.</p>
+<p style="color:black;margin-left: -20px;">This webpage describes the process of creating a neural network to distinguish between quasars and point-like objects using photometric properties of the data.</p>
 
 ### Context
 ***
