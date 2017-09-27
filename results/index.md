@@ -11,7 +11,7 @@ From the results plotted below, a lambda value of 0.5 was chosen, 50 hidden laye
 
 For 10 data input parameters, lambda = 0.5, 2 hidden layers with 50 nodes each, a positive classification value defined as y_NN > 0.5 and 1000 iterations we recovered a test set accuracy of 92%.
 
-The classifications are shown below. The blue are the true positive results i.e. correctly guessed QSO, the green are the false negative or QSOs that the netork failed to identify as such. The red are the correctly identified PLO (true negative) and the black are the false positive or the objects that the network wrongly identified as QSO.
+The classifications are shown below. The blue are the true positive results i.e. correctly guessed QSO, the green are the false negative or QSOs that the network failed to identify as such. The red are the correctly identified PLO (true negative) and the black are the false positive or the objects that the network wrongly identified as QSO.
 
 {:.center}
 ![alt text](/images/hist_results_FT_PN2.jpg "classificartions")
