@@ -60,5 +60,5 @@ For layers 1 to 4 (i.e input, 2 x hiddenlayers and output) we compute the follow
 
 9. Now we can train the network using these values and see how well it performs on the test data set as a function of the number of iterations required by the optimisation function.
 
-<p style="color:Red;font-weight:bold;">UPDATE: I found that it was more efficient to use the sklearn.neural_network.MLPClassifier. The new code has been added to the repo, and I will be updating the results section. </p>
+<p style="color:Red;font-weight:bold;"> UPDATE: I found that it was more efficient to use the sklearn.neural_network.MLPClassifier. The new code has been added to the repo, and I will be updating the results section.</p>
 
