@@ -1,7 +1,7 @@
 <p style="color:black;margin-left: -20px;">This webpage describes the process of creating a neural network to distinguish between quasars and point-like objects using photometric properties of the data.</p>
 
 
-<p style="font-size:large;color:black;margin-left: -4px;">I have another website that more generally describes my research area, talks I have given, publications and non-academic interests. It is located here<a href="http://birdhen.wixsite.com/aburden" style="color:DarkCyan;font-weight:bold;">other website</a></p>
+<p style="font-size:large;color:black;margin-left: -4px;">I have another website that more generally describes my research area, talks I have given, publications and non-academic interests. It is located here <a href="http://birdhen.wixsite.com/aburden" style="color:DarkCyan;font-weight:bold;">other website</a></p>
 
 ### Context
 ***
